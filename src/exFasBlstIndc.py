@@ -12,6 +12,7 @@ from Bio.SeqRecord import SeqRecord
 
 indices = {}
 extracted_seqs = []
+hit_seqs = []
 
 # Extracting indices and strand info from blast output file
 print('BLAST indices info:')
@@ -43,10 +44,12 @@ for seq_record in SeqIO.parse(sys.argv[2], 'fasta'):
                 int(indices[seq_record.id][0])+1]
         sub_seq = SeqRecord(Seq(str(sub_seq.seq)), id=seq_record.id, description=seq_record.description)
         extracted_seqs.append(sub_seq)
+        hit_seqs.append(seq_record)
 
         print('{}\t{}'.format(seq_record.id, len(sub_seq.seq)))
 
 # Write new file 
-SeqIO.write(extracted_seqs, 'blast_hits.fasta', 'fasta')
+SeqIO.write(extracted_seqs, 'blast_hits_extracted_subseq.fasta', 'fasta')
+SeqIO.write(hit_seqs, 'blast_hits.fasta', 'fasta')
 #for i in extracted_seqs:
 #    print(i,'\n')
