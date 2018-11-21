@@ -1,24 +1,23 @@
-#########################
-## Directory structure ##
-#########################
+## Directory structure 
+
 - project220: main project directory
   - strain_genome: contains individual genome files
   - bclA_analysis: searching bclA gene homologs in 13 initial strain genome
 
-############
-## Step 1 ##
-############
 
-# Finding bclA gene homologs in 13 initial strain genome using megablast
+## Step 1 
+
+
+### Finding bclA gene homologs in 13 initial strain genome using megablast
 
 `blastn -query bclA.fasta -subject 13_genome.fasta 
 -outfmt "6 qseqid sseqid pident length mismatch 
 gapopen qstart qend sstart send evalue bitscore sstrand" > megablast.output``
 
-# Extracting gene sequence using BLAST output indice. This python scripts creates a 
-# fasta file named 'blast_hits.fasta' and save extracted subsequences from genome based on
-# BLAST output
+#### Extracting gene sequence using BLAST output indice. 
+
+This python scripts creates a  fasta file named 'blast_hits.fasta' and save extracted subsequences from genome based on BLAST output
+
 `python exFasBlstIndc.py ../bclA_analysis/megablast.output ../bclA_analysis/13_genome.fasta`
 
-# After getting sub-sequences, need to find ORFs, translate into protein sequences, do conserved
-# domain search in NCBI and prosite
+After getting sub-sequences, need to find ORFs, translate into protein sequences, do conserved domain search in NCBI and prosite
