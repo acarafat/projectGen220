@@ -1,0 +1,21 @@
+#Batch CD-search tool	NIH/NLM/NCBI
+#cdsid	QM3-qcdsearch-EB91935AE95E71E-299E7BDF2FEEDD7F
+#datatype	hitsConcise Results
+#status	0
+#Start time	2018-12-07T06:37:06	Run time	0:00:01:01
+#status	success
+
+Query	Hit type	PSSM-ID	From	To	E-Value	Bitscore	Accession	Short name	Incomplete	Superfamily
+Q#3 - >11LoS11_3_18_3 [3 - 1718] Bradyrhizobium sp. strain 11LoS11_3.	specific	226646	4	571	0	623.563	COG4178	YddA	 - 	cl26602
+Q#5 - >11LoS18_3_1_2 [3 - 1661] Bradyrhizobium sp. strain 11LoS18_3.	specific	226646	3	553	0	614.703	COG4178	YddA	 - 	cl26602
+Q#7 - >11LoS34_10_1_2 [3 - 1661] Bradyrhizobium sp. strain 11LoS34_10.	specific	226646	3	553	0	614.703	COG4178	YddA	 - 	cl26602
+Q#9 - >11LoS34_2_1_2 [3 - 1661] Bradyrhizobium sp. strain 11LoS34_2.	specific	226646	3	553	0	614.703	COG4178	YddA	 - 	cl26602
+Q#12 - >11LoS34_2_63_3 [3 - 1661] Bradyrhizobium sp. strain 11LoS34_2.	specific	226646	3	553	0	609.311	COG4178	YddA	 - 	cl26602
+Q#14 - >11LoS34_4_15_2 [3 - 1238] Bradyrhizobium sp. strain 11LoS34_4.	specific	226646	3	412	2.34374e-142	418.252	COG4178	YddA	C	cl26602
+Q#17 - >11LoS34_6_2_2 [3 - 1661] Bradyrhizobium sp. strain 11LoS34_6.	specific	226646	3	553	0	614.703	COG4178	YddA	 - 	cl26602
+Q#19 - >11LoS6_2_10_2 [3 - 971] Bradyrhizobium sp. strain 11LoS6_2.	superfamily	332496	44	323	8.56633e-65	210.152	cl27675	HisKA superfamily	N	 - 
+Q#23 - >11LoS7_1_2_1 [176 - 1093] Bradyrhizobium sp. strain 11LoS7_1.	superfamily	328752	25	306	1.31837e-65	208.067	cl21494	Abhydrolase superfamily	 - 	 - 
+Q#24 - >11LoS7_1_2_2 [1122 - 1577] Bradyrhizobium sp. strain 11LoS7_1.	specific	100007	46	151	3.33352e-54	165.788	cd06150	YjgF_YER057c_UK114_like_2	 - 	cl10015
+Q#26 - >13LoS28_1_10_2 [3 - 1661] Bradyrhizobium sp. strain 13LoS28_1.	specific	226646	3	553	0	614.703	COG4178	YddA	 - 	cl26602
+Q#33 - >4_235_2 [682 - 1119] Bradyrhizobium sp. strain 4.	specific	179959	29	133	7.62636e-60	180.272	PRK05185	rplT	 - 	cl00393
+Q#37 - >CW1_7_2 [3 - 1661] Bradyrhizobium sp. strain CW1.	specific	226646	3	553	0	614.703	COG4178	YddA	 - 	cl26602
