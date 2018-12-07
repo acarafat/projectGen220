@@ -2,12 +2,12 @@
 
 ## Directory structure 
 
-
+```
 --project220: main project directory
   |--strain_genome: 
   |	|--strain_genome: contain individual genome files
   |--bclA_analysis: searching bclA gene homologs in 13 initial strain genome
-"
+```
 
 
 ## Step 1 
