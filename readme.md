@@ -2,10 +2,12 @@
 
 ## Directory structure 
 
+"
 ~/project220: main project directory
   /strain_genome: 
   	/strain_genome: contain individual genome files
   /bclA_analysis: searching bclA gene homologs in 13 initial strain genome
+"
 
 
 ## Step 1 
@@ -33,7 +35,11 @@ After getting sub-sequences, need to find ORFs, translate into protein sequences
 `module load emboss`
 2. Find ORFs in the sequences which are atleast 300bp long and get the translated protein sequences.
 `getorf -sequence blast_hits_extracted_subseq.fasta -outseq orf.out.txt -minsize 300 -reverse no`
-3. Use web-CD (Conserved domain) tool in a batch mood on `orf.out.txt` against CDD database (https://www.ncbi.nlm.nih.gov/Structure/bwrpsb/bwrpsb.cgi). After search completed successfully, downloaded dataset (concise, domain hits only). File renamed to `CDD_output.13_brady_genome.txt`.
+3. Use web-CD (Conserved domain) tool in a batch mood on `orf.out.txt` against CDD database (https://www.ncbi.nlm.nih.gov/Structure/bwrpsb/bwrpsb.cgi). After search completed successfully, downloaded dataset (concise, domain hits only). File renamed to `CDD_output.13_brady_genome.txt`
+4. Find entries that have 'YddA' domain (the domain family for BclA protein) and save in a file
+`grep 'YddA' CDD_output.13_brady_genome.txt | awk {'print $3'} | sed 's/^.// > id.Ydd.txt'`
+5. Use a Python script to filter Ydd hit protein sequences in a different file.
+`python filter_ydd.py`
 
 
 
