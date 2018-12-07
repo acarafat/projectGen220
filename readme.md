@@ -40,6 +40,7 @@ After getting sub-sequences, need to find ORFs, translate into protein sequences
 `grep 'YddA' CDD_output.13_brady_genome.txt | awk {'print $3'} | sed 's/^.// > id.Ydd.txt'`
 5. Use a Python script to filter Ydd hit protein sequences in a different file.
 `python filter_ydd.py`
+6. Use ScanProsite tool to search those orf sequences in prosite pattern database (https://prosite.expasy.org/scanprosite/)
 
 
 
