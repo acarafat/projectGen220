@@ -36,13 +36,19 @@ After getting sub-sequences, need to find ORFs, translate into protein sequences
 `module load emboss`
 2. Find ORFs in the sequences which are atleast 300bp long and get the translated protein sequences.
 `getorf -sequence blast_hits_extracted_subseq.fasta -outseq orf.out.txt -minsize 300 -reverse no`
-3. Use web-CD (Conserved domain) tool in a batch mood on `orf.out.txt` against CDD database (https://www.ncbi.nlm.nih.gov/Structure/bwrpsb/bwrpsb.cgi). After search completed successfully, downloaded dataset (concise, domain hits only). File renamed to `CDD_output.13_brady_genome.txt`
-4. Find entries that have 'YddA' domain (the domain family for BclA protein) and save in a file
-`grep 'YddA' CDD_output.13_brady_genome.txt | awk {'print $3'} | sed 's/^.// > id.Ydd.txt'`
-5. Use a Python script to filter Ydd hit protein sequences in a different file.
-`python filter_ydd.py`
-6. Use ScanProsite tool to search those orf sequences in prosite pattern database (https://prosite.expasy.org/scanprosite/)
 
+### Search for protein family and domain
+1. Use web-CD (Conserved domain) tool in a batch mood on `orf.out.txt` against CDD database (https://www.ncbi.nlm.nih.gov/Structure/bwrpsb/bwrpsb.cgi). After search completed successfully, downloaded dataset (concise, domain hits only). File renamed to `CDD_output.13_brady_genome.txt`
+2. Find entries that have 'YddA' domain (the domain family for BclA protein) and save in a file
+`grep 'YddA' CDD_output.13_brady_genome.txt | awk {'print $3'} | sed 's/^.// > id.Ydd.txt'`
+3. Use a Python script to filter Ydd hit protein sequences in a different file.
+`python filter_ydd.py`
+4. Use ScanProsite tool to search those orf sequences in prosite pattern database (https://prosite.expasy.org/scanprosite/)
+5. Alternatively use hmmscan program in biocluster to look for domains.
+`module load db-pfam`
+`module load hmmer/3`
+`hmmscan -E 0.0001 --domtblout hmmscan.domtblout.txt --cpu 4 $PFAM_DB/Pfam-A.hmm orf.out.txt > hmmscan.output`
+6. A python script can  be used to mine the domain table output file (hmmscan.domtblout.txt) for domain hits and check for ABC related domains. 
 
 
 

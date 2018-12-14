@@ -1,0 +1,63 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+ABC_membrane_2       PF06472.14   282 11LoS11_3_18_3       -            572     2e-74  250.4   5.3   1   2   4.7e-78     2e-74  250.4   5.3     5   282     4   295     1   295 0.99 ABC transporter transmembrane region 2
+ABC_membrane_2       PF06472.14   282 11LoS11_3_18_3       -            572     2e-74  250.4   5.3   2   2      0.98   4.1e+03   -3.3   0.0   168   207   301   340   299   340 0.80 ABC transporter transmembrane region 2
+SbmA_BacA            PF05992.11   315 11LoS11_3_18_3       -            572   3.3e-41  141.7   9.4   1   1   1.1e-44   4.4e-41  141.2   9.4    13   314    31   345    20   346 0.87 SbmA/BacA-like family
+ABC_tran             PF00005.26   137 11LoS11_3_18_3       -            572     6e-17   62.3   0.0   1   1   4.2e-20   1.8e-16   60.8   0.0     5   137   389   520   385   520 0.82 ABC transporter
+AAA_29               PF13555.5     61 11LoS11_3_18_3       -            572   6.1e-06   25.8   0.5   1   2       1.3   5.5e+03   -2.9   0.0     7    14    61    68    57    73 0.74 P-loop containing region of AAA domain
+AAA_29               PF13555.5     61 11LoS11_3_18_3       -            572   6.1e-06   25.8   0.5   2   2     5e-09   2.1e-05   24.1   0.1    20    43   393   416   385   419 0.83 P-loop containing region of AAA domain
+ABC_membrane_2       PF06472.14   282 11LoS18_3_1_2        -            553   4.2e-87  292.0   2.1   1   1   1.3e-90   5.3e-87  291.7   2.1    11   282     3   288     1   288 0.99 ABC transporter transmembrane region 2
+SbmA_BacA            PF05992.11   315 11LoS18_3_1_2        -            553   6.5e-44  150.5   4.9   1   1   2.1e-47   8.8e-44  150.1   4.9    13   314    24   338    13   339 0.87 SbmA/BacA-like family
+ABC_tran             PF00005.26   137 11LoS18_3_1_2        -            553   3.1e-17   63.3   0.0   1   1   1.6e-20   6.6e-17   62.2   0.0     6   137   383   513   379   513 0.89 ABC transporter
+AAA_29               PF13555.5     61 11LoS18_3_1_2        -            553   3.2e-05   23.5   0.0   1   1   2.6e-08   0.00011   21.8   0.0    22    43   388   409   379   412 0.81 P-loop containing region of AAA domain
+ABC_membrane_2       PF06472.14   282 11LoS34_10_1_2       -            553   4.2e-87  292.0   2.1   1   1   1.3e-90   5.3e-87  291.7   2.1    11   282     3   288     1   288 0.99 ABC transporter transmembrane region 2
+SbmA_BacA            PF05992.11   315 11LoS34_10_1_2       -            553   6.5e-44  150.5   4.9   1   1   2.1e-47   8.8e-44  150.1   4.9    13   314    24   338    13   339 0.87 SbmA/BacA-like family
+ABC_tran             PF00005.26   137 11LoS34_10_1_2       -            553   3.1e-17   63.3   0.0   1   1   1.6e-20   6.6e-17   62.2   0.0     6   137   383   513   379   513 0.89 ABC transporter
+AAA_29               PF13555.5     61 11LoS34_10_1_2       -            553   3.2e-05   23.5   0.0   1   1   2.6e-08   0.00011   21.8   0.0    22    43   388   409   379   412 0.81 P-loop containing region of AAA domain
+ABC_membrane_2       PF06472.14   282 11LoS34_2_1_2        -            553   4.2e-87  292.0   2.1   1   1   1.3e-90   5.3e-87  291.7   2.1    11   282     3   288     1   288 0.99 ABC transporter transmembrane region 2
+SbmA_BacA            PF05992.11   315 11LoS34_2_1_2        -            553   6.5e-44  150.5   4.9   1   1   2.1e-47   8.8e-44  150.1   4.9    13   314    24   338    13   339 0.87 SbmA/BacA-like family
+ABC_tran             PF00005.26   137 11LoS34_2_1_2        -            553   3.1e-17   63.3   0.0   1   1   1.6e-20   6.6e-17   62.2   0.0     6   137   383   513   379   513 0.89 ABC transporter
+AAA_29               PF13555.5     61 11LoS34_2_1_2        -            553   3.2e-05   23.5   0.0   1   1   2.6e-08   0.00011   21.8   0.0    22    43   388   409   379   412 0.81 P-loop containing region of AAA domain
+ABC_membrane_2       PF06472.14   282 11LoS34_2_63_3       -            553   2.1e-85  286.4   2.5   1   1   6.2e-89   2.6e-85  286.1   2.5    11   282     3   288     1   288 0.99 ABC transporter transmembrane region 2
+SbmA_BacA            PF05992.11   315 11LoS34_2_63_3       -            553   7.9e-44  150.3   4.9   1   1   2.5e-47   1.1e-43  149.8   4.9    13   314    24   338    13   339 0.88 SbmA/BacA-like family
+ABC_tran             PF00005.26   137 11LoS34_2_63_3       -            553   5.2e-17   62.5   0.0   1   1   2.7e-20   1.1e-16   61.5   0.0     6   137   383   513   379   513 0.89 ABC transporter
+AAA_29               PF13555.5     61 11LoS34_2_63_3       -            553   3.4e-05   23.4   0.0   1   1   2.5e-08   0.00011   21.8   0.0    22    43   388   409   379   412 0.81 P-loop containing region of AAA domain
+ABC_membrane_2       PF06472.14   282 11LoS34_4_15_2       -            412   9.6e-87  290.8   1.9   1   1   2.8e-90   1.2e-86  290.5   1.9    11   282     3   288     1   288 0.99 ABC transporter transmembrane region 2
+SbmA_BacA            PF05992.11   315 11LoS34_4_15_2       -            412   2.7e-44  151.8   4.9   1   1   8.6e-48   3.6e-44  151.4   4.9    13   314    24   338    13   339 0.87 SbmA/BacA-like family
+AAA_29               PF13555.5     61 11LoS34_4_15_2       -            412   2.9e-05   23.6   0.4   1   2       1.7   7.1e+03   -3.3   0.1     3    16    50    63    49    66 0.78 P-loop containing region of AAA domain
+AAA_29               PF13555.5     61 11LoS34_4_15_2       -            412   2.9e-05   23.6   0.4   2   2   1.9e-08   8.1e-05   22.2   0.0    22    43   388   409   379   411 0.80 P-loop containing region of AAA domain
+ABC_tran             PF00005.26   137 11LoS34_4_15_2       -            412   4.9e-05   23.8   0.0   1   1     2e-08   8.2e-05   23.0   0.0     6    33   383   410   379   412 0.93 ABC transporter
+ABC_membrane_2       PF06472.14   282 11LoS34_6_2_2        -            553   4.2e-87  292.0   2.1   1   1   1.3e-90   5.3e-87  291.7   2.1    11   282     3   288     1   288 0.99 ABC transporter transmembrane region 2
+SbmA_BacA            PF05992.11   315 11LoS34_6_2_2        -            553   6.5e-44  150.5   4.9   1   1   2.1e-47   8.8e-44  150.1   4.9    13   314    24   338    13   339 0.87 SbmA/BacA-like family
+ABC_tran             PF00005.26   137 11LoS34_6_2_2        -            553   3.1e-17   63.3   0.0   1   1   1.6e-20   6.6e-17   62.2   0.0     6   137   383   513   379   513 0.89 ABC transporter
+AAA_29               PF13555.5     61 11LoS34_6_2_2        -            553   3.2e-05   23.5   0.0   1   1   2.6e-08   0.00011   21.8   0.0    22    43   388   409   379   412 0.81 P-loop containing region of AAA domain
+HATPase_c            PF02518.25   111 11LoS6_2_10_2        -            323   6.9e-19   68.4   0.0   1   1   1.7e-22   1.5e-18   67.3   0.0     5   108   220   322   216   323 0.91 Histidine kinase-, DNA gyrase B-, and HSP90-like ATPase
+HisKA                PF00512.24    64 11LoS6_2_10_2        -            323   6.2e-07   29.3   0.3   1   2   2.3e-10     2e-06   27.7   0.1     2    64   121   178   120   178 0.93 His Kinase A (phospho-acceptor) domain
+HisKA                PF00512.24    64 11LoS6_2_10_2        -            323   6.2e-07   29.3   0.3   2   2      0.53   4.5e+03   -2.3   0.0    34    47   186   199   182   202 0.74 His Kinase A (phospho-acceptor) domain
+Esterase_phd         PF10503.8    220 11LoS7_1_2_1         -            306   3.9e-16   59.1   0.8   1   1   2.1e-19   6.9e-16   58.3   0.7    12   128    42   159    33   174 0.87 Esterase PHB depolymerase
+Peptidase_S9         PF00326.20   212 11LoS7_1_2_1         -            306   3.5e-09   36.3   0.4   1   2   3.8e-11   1.3e-07   31.3   0.2    44    95   108   159    67   162 0.90 Prolyl oligopeptidase family
+Peptidase_S9         PF00326.20   212 11LoS7_1_2_1         -            306   3.5e-09   36.3   0.4   2   2     0.021        70    2.7   0.0   143   161   176   194   161   198 0.83 Prolyl oligopeptidase family
+Esterase             PF00756.19   251 11LoS7_1_2_1         -            306   7.3e-06   25.7   0.0   1   1   3.1e-09     1e-05   25.2   0.0    10   159    35   209    29   259 0.76 Putative esterase
+Abhydrolase_2        PF02230.15   217 11LoS7_1_2_1         -            306   1.8e-05   24.6   0.0   1   1   3.6e-08   0.00012   21.8   0.0    87   181   109   201    33   218 0.81 Phospholipase/Carboxylesterase
+Abhydrolase_6        PF12697.6    212 11LoS7_1_2_1         -            306   2.1e-05   25.2   2.1   1   1   1.2e-08     4e-05   24.2   2.1     1   152    48   220    48   291 0.52 Alpha/beta hydrolase family
+Ribonuc_L-PSP        PF01042.20   121 11LoS7_1_2_2         -            152   1.9e-23   82.6   0.6   1   1   1.4e-27   2.3e-23   82.4   0.6     7   120    44   151    38   152 0.93 Endoribonuclease L-PSP
+ABC_membrane_2       PF06472.14   282 13LoS28_1_10_2       -            553   4.2e-87  292.0   2.1   1   1   1.3e-90   5.3e-87  291.7   2.1    11   282     3   288     1   288 0.99 ABC transporter transmembrane region 2
+SbmA_BacA            PF05992.11   315 13LoS28_1_10_2       -            553   6.5e-44  150.5   4.9   1   1   2.1e-47   8.8e-44  150.1   4.9    13   314    24   338    13   339 0.87 SbmA/BacA-like family
+ABC_tran             PF00005.26   137 13LoS28_1_10_2       -            553   3.1e-17   63.3   0.0   1   1   1.6e-20   6.6e-17   62.2   0.0     6   137   383   513   379   513 0.89 ABC transporter
+AAA_29               PF13555.5     61 13LoS28_1_10_2       -            553   3.2e-05   23.5   0.0   1   1   2.6e-08   0.00011   21.8   0.0    22    43   388   409   379   412 0.81 P-loop containing region of AAA domain
+Ribosomal_L20        PF00453.17   107 4_235_2              -            146   4.8e-46  155.2   4.0   1   1   3.7e-50   6.2e-46  154.8   4.0     1   107    30   136    30   136 0.99 Ribosomal protein L20
+ABC_membrane_2       PF06472.14   282 CW1_7_2              -            553   4.2e-87  292.0   2.1   1   1   1.3e-90   5.3e-87  291.7   2.1    11   282     3   288     1   288 0.99 ABC transporter transmembrane region 2
+SbmA_BacA            PF05992.11   315 CW1_7_2              -            553   6.5e-44  150.5   4.9   1   1   2.1e-47   8.8e-44  150.1   4.9    13   314    24   338    13   339 0.87 SbmA/BacA-like family
+ABC_tran             PF00005.26   137 CW1_7_2              -            553   3.1e-17   63.3   0.0   1   1   1.6e-20   6.6e-17   62.2   0.0     6   137   383   513   379   513 0.89 ABC transporter
+AAA_29               PF13555.5     61 CW1_7_2              -            553   3.2e-05   23.5   0.0   1   1   2.6e-08   0.00011   21.8   0.0    22    43   388   409   379   412 0.81 P-loop containing region of AAA domain
+#
+# Program:         hmmscan
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SCAN
+# Query file:      orf.out.txt
+# Target file:     /srv/projects/db/pfam/2017-06-11-Pfam31.0/Pfam-A.hmm
+# Option settings: hmmscan --domtblout hmmscan.domtblout.txt -E 0.0001 --cpu 4 /srv/projects/db/pfam/2017-06-11-Pfam31.0/Pfam-A.hmm orf.out.txt 
+# Current dir:     /rhome/arahm010/project220/src
+# Date:            Fri Dec 14 01:11:40 2018
+# [ok]
